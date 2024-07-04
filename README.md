@@ -2,25 +2,28 @@
 
 This repository contains scripts and data to visualize and predict sea level rise based on historical data.
 
-**Project Overview**
+## Project Overview
+
 The Sea Level Predictor project aims to analyze and visualize historical sea level data using Python. It includes scripts to create visualizations such as scatter plots with linear regression and predictions for future sea levels.
 
-**Data**
-The primary dataset used for this project is epa-sea-level.csv, which contains historical sea level measurements.
+## Data
 
-**Requirements**
+The primary dataset used for this project is `epa-sea-level.csv`, which contains historical sea level measurements.
+
+## Requirements
+
 To run the scripts in this repository, you need:
+- Python 3
+- Pandas
+- Matplotlib
+- NumPy
+- SciPy
 
-Python 3
-Pandas
-Matplotlib
-NumPy
-SciPy
 Install the required Python packages using pip:
 
-bash
-Copy code
+```bash
 pip install pandas matplotlib numpy scipy
+
 Usage
 Clone the repository:
 
